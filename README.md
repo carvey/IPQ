@@ -3,7 +3,7 @@
 ## Setup
 Setup the python environment
 		
-		python3 -m venv venv --system-site-packages
+	python3 -m venv venv --system-site-packages
 		
 Setup the database schema
         
@@ -15,6 +15,12 @@ This app currently accepts txt files in the form of
         [network id 2]/[prefix length 2]
         [network id 3]/[prefix length 3]
         [network id 4]/[prefix length 4]
+	...
+	
+Example:
+	192.168.1.0/24
+	10.1.1.0/24
+	10.1.2.0/24
 
 Use this command to load the address into the database. The same command is used to update the database as well.
 
