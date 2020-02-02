@@ -29,6 +29,6 @@ Use this command to load the address into the database. The same command is used
 
 
 ## Run
-Finally, run the application from the top level directory (not within the ipq directory)
+Finally, run the application from the top level directory (not within the internal ipq directory)
 	
 	flask run --host=0.0.0.0 --port=9150
